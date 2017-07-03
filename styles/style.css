@@ -1,10 +1,41 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+body,html {
+    width: 100vw;
+    height: 100vh; 
+}
+.cards {
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: spin 20s linear infinite;
+    text-align: center;
+}
+
+
+@keyframes spin {
+  from {
+    transform: rotateY(0); }
+  to {
+    transform: rotateY(-360deg); } }
+
 .card {
-  width: 200px;
-  height: 300px;
+
   perspective: 1000px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  border-radius: 4px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .card-inner {
@@ -36,7 +67,7 @@
   
 }
 
-.bob {
+.img {
     position: absolute;
     width: 100%;
     top: 50%;

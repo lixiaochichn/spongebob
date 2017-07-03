@@ -1,27 +1,20 @@
-.warrior.bob {
-  background-image: url(../images/bob.png);
+.card.bob {
   transform: rotateY(0deg) translateZ(380px); }
 
-.warrior.pai {
-  background-image: url(../images/pai.png);
+.card.pai {
   transform: rotateY(51.42857deg) translateZ(380px); }
 
-.warrior.pi {
-  background-image: url(../images/pi.png);
+.card.pi {
   transform: rotateY(102.85714deg) translateZ(380px); }
 
-.warrior.song {
-  background-image: url(../images/song.png);
+.card.song {
   transform: rotateY(154.28571deg) translateZ(380px); }
 
-.warrior.wo {
-  background-image: url(../images/wo.png);
+.card.wo {
   transform: rotateY(205.71429deg) translateZ(380px); }
 
-.warrior.xie {
-  background-image: url(../images/xie.png);
+.card.xie {
   transform: rotateY(257.14286deg) translateZ(380px); }
 
-.warrior.zhang {
-  background-image: url(../images/zhang.png);
+.card.zhang {
   transform: rotateY(308.57143deg) translateZ(380px); }
