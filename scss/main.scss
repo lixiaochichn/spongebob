@@ -1,0 +1,8 @@
+$warriors: bob, pai, pi, song, wo, xie, zhang;
+@each $name in $warriors {
+  $i: index($warriors, $name) - 1;
+  .warrior.#{$name} {
+    background-image: url(../images/#{$name}.png);
+    transform: rotateY(360deg / length($warriors) * $i) translateZ(380px);
+  }
+}
